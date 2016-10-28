@@ -6,6 +6,10 @@
   "bugs": {
     "url": "https://github.com/onmodulus/rabbit-pubsub/issues"
   },
+  "dependencies": {
+    "@modulus/rabbit-channel": "1.0.0",
+    "serialize-error": "2.0.0"
+  },
   "devDependencies": {
     "code": "1.5.0",
     "lab": "6.2.0",
@@ -31,12 +35,8 @@
   },
   "scripts": {
     "coverage": "lab -r html -o coverage/index.html -r lcov -o coverage/lcov.info",
-    "pretest": "npm run lint",
     "lint": "standard -v",
+    "pretest": "npm run lint",
     "test": "tape test"
-  },
-  "dependencies": {
-    "@modulus/rabbit-channel": "1.0.0",
-    "serialize-error": "2.0.0"
   }
 }
