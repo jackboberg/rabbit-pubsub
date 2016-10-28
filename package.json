@@ -36,7 +36,7 @@
   "scripts": {
     "coverage": "lab -r html -o coverage/index.html -r lcov -o coverage/lcov.info",
     "lint": "standard -v",
-    "pretest": "npm run lint",
-    "test": "tape test"
+    "test": "standard -v && tape test",
+    "unit": "tape test"
   }
 }
