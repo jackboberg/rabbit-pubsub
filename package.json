@@ -12,7 +12,7 @@
   ],
   "dependencies": {
     "@jackrabbit/channel": "^2.0.0",
-    "serialize-error": "^2.0.0"
+    "serialize-error": "^2.1.0"
   },
   "devDependencies": {
     "@modulus/standard": "^0.6.0",
