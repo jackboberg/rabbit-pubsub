@@ -1,7 +1,6 @@
-var Test = require('tape');
+var Test = require('tape')
 
-Test('Example Test', function (test) {
-  test.pass('this test passes');
-  test.end();
-});
-
+Test('Example Test', (test) => {
+  test.pass('this test passes')
+  test.end()
+})
