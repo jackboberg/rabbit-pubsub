@@ -1,7 +1,7 @@
 {
   "name": "@jackrabbit/pubsub",
   "description": "amqplib wrapper for easier rabbitmq scripting of pub/sub model",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "author": "Jack Boberg <hello@jackboberg.info>",
   "bugs": {
     "url": "https://github.com/jackboberg/rabbit-pubsub/issues"
