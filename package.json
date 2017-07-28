@@ -11,7 +11,7 @@
     "John Musgrave"
   ],
   "dependencies": {
-    "@modulus/rabbit-channel": "1.0.0",
+    "@jackrabbit/channel": "^2.0.0",
     "serialize-error": "2.0.0"
   },
   "devDependencies": {
