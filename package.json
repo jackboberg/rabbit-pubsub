@@ -15,9 +15,9 @@
     "serialize-error": "^2.1.0"
   },
   "devDependencies": {
-    "code": "^1.5.0",
-    "lab": "^6.2.0",
-    "sinon": "^1.17.7",
+    "code": "^4.1.0",
+    "lab": "^14.1.1",
+    "sinon": "^3.0.0",
     "standard": "^10.0.2",
     "tape": "^4.7.0"
   },
